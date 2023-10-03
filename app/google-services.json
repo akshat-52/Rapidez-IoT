@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "836952068202",
+    "firebase_url": "https://rapidez-f8b03-default-rtdb.firebaseio.com",
+    "project_id": "rapidez-f8b03",
+    "storage_bucket": "rapidez-f8b03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836952068202:android:a4d60e7b46f9fdd6ab3a13",
+        "android_client_info": {
+          "package_name": "com.example.rapidez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836952068202-b8grivvnqjml6j1d5naqs80qd8g9hmh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFQRQAcrlA0pAjf9scv3Gk1uru2tL_tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836952068202-b8grivvnqjml6j1d5naqs80qd8g9hmh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
