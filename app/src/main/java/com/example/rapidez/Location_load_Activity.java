@@ -18,6 +18,7 @@ public class Location_load_Activity extends AppCompatActivity {
             public void run() {
                 Intent i = new Intent(Location_load_Activity.this, LastlocationActivity.class);
                 startActivity(i);
+                finish();
             }
         }, 4000);
     }

@@ -18,6 +18,7 @@ public class Performance_load_Activity extends AppCompatActivity {
             public void run() {
                 Intent i = new Intent(Performance_load_Activity.this, Driverss_performanceActivity.class);
                 startActivity(i);
+                finish();
             }
         }, 5000);
     }

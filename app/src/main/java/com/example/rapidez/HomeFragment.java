@@ -33,7 +33,7 @@ public class HomeFragment extends Fragment {
     private TextView speedtxt;
 
     Button lastLocation;
-    ImageButton history_bt, performance_bt;
+    ImageButton history_bt, performance_bt, menu_bt;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -84,8 +84,16 @@ public class HomeFragment extends Fragment {
         speedtxt= root.findViewById(R.id.speed_txt);
         history_bt = root.findViewById(R.id.his_bt);
         performance_bt = root.findViewById(R.id.perf_bt);
+        menu_bt = root.findViewById(R.id.menu);
 
         lastLocation=root.findViewById(R.id.lastlocation);
+
+        menu_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                replaceFragment(new MenuFragment());
+            }
+        });
 
         lastLocation.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,6 +120,19 @@ public class HomeFragment extends Fragment {
         //getSpeed();
 
         return root;
+    }
+
+    private void replaceFragment(Fragment fragment) {
+
+        getActivity().getSupportFragmentManager().beginTransaction().addToBackStack(null)
+                .setCustomAnimations(
+                        R.anim.enter_from_left,
+                        R.anim.exit_to_left
+                )
+                .replace(R.id.Frg_1, fragment)
+                .addToBackStack(null)
+                .commit();
+
     }
 
     private void getSpeed() {

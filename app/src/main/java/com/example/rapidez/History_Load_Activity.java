@@ -17,6 +17,7 @@ public class History_Load_Activity extends AppCompatActivity {
             public void run() {
                 Intent i = new Intent(History_Load_Activity.this, HistoryActivity.class);
                 startActivity(i);
+                finish();
             }
         }, 4000);
     }

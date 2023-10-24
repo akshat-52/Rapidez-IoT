@@ -18,6 +18,7 @@ public class Load_Activity extends AppCompatActivity {
             public void run() {
                 Intent i = new Intent(Load_Activity.this, MainActivity.class);
                 startActivity(i);
+                finish();
             }
         }, 6000);
     }
