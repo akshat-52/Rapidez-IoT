@@ -1,5 +1,6 @@
 package com.example.rapidez;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -92,6 +93,11 @@ public class MenuFragment extends Fragment {
 
                 if(selectedItem.equals("Support")){
                     replaceFragment(new SupportFragment());
+                }
+
+                if(selectedItem.equals("Device Settings")){
+                    Intent i = new Intent(getContext(), DeviceSettings.class);
+                    startActivity(i);
                 }
 
                 if(selectedItem.equals("FeedBack")){
