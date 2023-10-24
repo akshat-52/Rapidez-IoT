@@ -194,7 +194,7 @@
                                 android:layout_width="65dp"
                                 android:layout_height="26dp"
                                 android:fontFamily="@font/nunitosans_bold"
-                                android:text="00 KM"
+                                android:text="12 KM"
                                 android:textColor="#0E0E0E"
                                 android:textSize="20sp"
                                 android:textStyle="bold"
