@@ -27,10 +27,10 @@ public class Driverss_performanceActivity extends AppCompatActivity {
         accln=findViewById(R.id.accln_tx);
         score=findViewById(R.id.scoreval);
         harshBreak=findViewById(R.id.harshBreakTxt);
-        speedref=firebaseDatabase.getReference("V");
-        acclnref=firebaseDatabase.getReference("A");
-        scoreRef=firebaseDatabase.getReference("S");
-        harshbreakRef=firebaseDatabase.getReference("hb");
+        speedref=firebaseDatabase.getReference("Velocity");
+        acclnref=firebaseDatabase.getReference("Acceleration");
+        scoreRef=firebaseDatabase.getReference("Score");
+        harshbreakRef=firebaseDatabase.getReference("Harsh Breaks");
         getdata();
     }
     private void getdata() {

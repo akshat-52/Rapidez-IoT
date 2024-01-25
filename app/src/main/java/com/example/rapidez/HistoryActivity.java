@@ -38,7 +38,7 @@ public class HistoryActivity extends AppCompatActivity {
                 // changed in our Firebase console.
                 // below line is for getting the data from
                 // snapshot of our database.
-                float value = snapshot.getValue(float.class);
+                float value = 40;//snapshot.getValue(float.class);
                 if(value<=10){
                     String value1=Float.toString(value);
                     // after getting the value we are setting
