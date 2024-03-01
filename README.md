@@ -5,7 +5,7 @@ vehicle data contributes to safety improvements and enriched insights, while its
 
 ## App Design and Interface
 
-![Screenshot_20240301_093322](https://github.com/Kiruthik-coder/Rapidez/assets/76081690/7c5482a4-f595-4c16-8f15-87af18f4cf81)
+<img src = "https://github.com/Kiruthik-coder/Rapidez/assets/76081690/7c5482a4-f595-4c16-8f15-87af18f4cf81" alt = "img" width="483">
 
 
 
