@@ -29,5 +29,5 @@ vehicle data contributes to safety improvements and enriched insights, while its
 
 ## Contact
 
-kiruthiksuriyah.m@gmail.com
+akshtsatyam52@gmail.com
 
